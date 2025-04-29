@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jobbcoach-kollen"
+version = "1.0.0"
+description = "En AI-baserad app för att analysera arbetsmarknadstrender och stötta jobbcoacher."
+authors = [
+  { name="Ditt Namn", email="din.email@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "streamlit",
+    "pandas",
+    "numpy",
+    "tensorflow",
+    "matplotlib",
+    "scikit-learn",
+    "openai",
+    "python-dotenv",
+    "joblib",
+]

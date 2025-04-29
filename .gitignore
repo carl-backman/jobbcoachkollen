@@ -1,0 +1,34 @@
+# Python cache-filer
+__pycache__/
+*.py[cod]
+
+# Virtuella miljöer
+venv/
+env/
+
+# Miljövariabler och API-nycklar
+.env
+.env.*
+
+# Streamlit och Hugging Face config
+.streamlit/
+huggingface/
+
+# Modeller och data
+rnn_model.keras
+*.h5
+*.keras
+*.xlsx
+
+# OS-filer
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE-filer
+.vscode/
+.idea/
+
+# Loggar och temporära filer
+*.log
+*.tmp
